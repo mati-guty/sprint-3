@@ -448,23 +448,44 @@ fieldset{
         margin-bottom: 1rem; /* Agrega un margen inferior entre las photo-containers */
     }
 
-    .hire {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .map-container {
-        width: 50%;
-        margin: 0 auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    form {
-        width: 50%;
-        align-items: center;
-        text-align: center;
-    }
+form {
+    flex: 1;
+    max-width: 500px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 1rem;
+    background-color: #888888;
+    font-size: 21px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 40px;
 }
+
+  /* Estilo para las opciones de pago */
+.payment-op {
+    display: flex;
+    flex-direction: column;
+}
+
+  /* Estilo para el contenedor principal */
+.hire {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+  /* Estilo para el mapa dentro del contenedor .map-container */
+.map-container iframe {
+    border: 20px solid black; /* Añadir 'solid' para especificar el estilo del borde */
+    border-radius: 20px;
+}
+
+  /* Estilo para el encabezado h2 */
+h2 {
+    text-align: center;
+}
+
+  /* Estilo para los fieldset */
+fieldset {
+    margin-left: 2px;
+}
+
