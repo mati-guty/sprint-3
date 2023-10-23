@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindy Photo</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="shortcut icon" href="../image/favicon.png" type="image/x-icon">
+</head>
+<body>
+    
+    <header>
+        <nav class="nav-container">
+            <a href="../index.html">Home</a>
+            <a href="../pages/aboutUs.html">About Us</a>
+            <a href="../pages/contact.html">Contact</a>
+            <a href="../pages/services.html">Services</a>
+            <a href="../pages/rating.html">Rating</a>
+            <a href="../pages/hire.html">Hire</a>
+        </nav>
+    
+        <div class="logo">
+            <img src="../image/logo.png" alt="logo-camara" class="logo-img">
+        </div>
+    </header>
+
+    <main>
+
+    <section>
+        <div class="title-container">
+            <div class="title">
+                <h1>Hire</h1>
+            </div>
+        </div>
+    </section>
+
+    <div class="sub-title-c">
+        <h2>Welcome to rating and reviews</h2>
+    </div>
+
+        <div class="hire">
+
+            <section class="map-container">
+                <h2>Our Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.6897532054!2d-118.41173249999999!3d34.020479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses-419!2scl!4v1698022613075!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+            </section>
+
+                <form action="../showdata/show_data.html">
+                    <fieldset>
+                        <legend>First Name and Last Name</legend>
+                        <label for="name">
+                            <input type="text" id="name" name="f-name" required>
+                        </label>
+                    </fieldset>
+    
+    
+                    <fieldset>
+                        <legend>Phone Number</legend>
+                    </fieldset>
+                    <label for="phone">
+                        <input type="number" id="phone" name="phone">
+                    </label>
+    
+                    <label for="options">Choose Service</label>
+                    <select id="options" name="options">
+                        <option value="option1">Wedding</option>
+                        <option value="option2">Birthday</option>
+                        <option value="option3">Kids Birthday</option>
+                        <option value="option4">Photos Studio / Outside</option>
+                    </select>
+    
+                    <fieldset>
+                        <legend>Choose Date</legend>
+                        <label>
+                            <input type="date" name="date" id="date">
+                        </label>
+                    </fieldset>
+    
+    
+                    <fieldset class="payment-op">
+                        <legend>Payment Options</legend>
+                        <label for="cash">    
+                            <input type="radio" id="cash" name="payment" value="cash">
+                            Cash
+                        </label>
+                        <label>
+                            
+                            <input type="radio" id="credit-card" name="payment" value="credit-card">
+                            Credit Card
+                        </label>
+                        <label>
+                            
+                            <input type="radio" id="debid-card" name="payment" value="debid-card">
+                            Debit Card
+                        </label>
+                    </fieldset>
+    
+    
+                    <fieldset>
+                        <legend>Message (Location and Time)</legend>
+                        <label>
+                            <textarea name="comments" id="comments" cols="30" rows="10" maxlength="125"></textarea>
+                        </label>
+                    </fieldset>
+    
+                    <fieldset>
+                        <input type="checkbox" name="send" id="send"> I accept terms and conditions... 
+                        <input type="submit" value="  send  ">
+                    </fieldset>
+    
+                </form>
+
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div>
+            <h3>Created by Matías Gutiérrez</h3>
+        </div>
+    </footer>
+
+</body>
+</html>
